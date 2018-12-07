@@ -1,0 +1,43 @@
+
+#traco1{
+    width: 80px;
+    height: 70px;
+    position:absolute; 
+    margin-top: 0px;
+    margin-left: 460px;
+}
+
+#traco2{
+     width: 80px;
+    height: 70px;
+    position:absolute; 
+    margin-top: 0px;
+    margin-left: 730px;
+}
+
+body{
+  
+    background-image: url("#{resource['img:madei.jpg']}");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  
+        
+}
+
+#formLogin {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+h1{
+    text-align: center;
+    color:white;
+    font-family: fantasy;
+    font-size: 60px; 
+    
+}

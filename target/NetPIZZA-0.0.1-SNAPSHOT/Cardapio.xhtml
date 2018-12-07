@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="template-padrao.xhtml"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:f="http://xmlns.jcp.org/jsf/core">
+   
+        <ui:define name="corpo">
+     <h:form id="form">
+         <p:carousel  value="#{pizzaBean.pizzas}" headerText="NetMenu" var="piz" itemStyle="text-align:center" responsive="true">
+         </p:carousel>
+         
+ <p:panelGrid columns="5">
+    <p:panelGrid columns="1">
+        <p:graphicImage height="190px" width="200px" name="img/margherita.jpg" />
+        <h:outputText style="font-size: 18px" value="Margherita" />
+        <h:outputText style="font-size: 12px" value="Mussarela,tomate e manjericao." />
+        <h:button value="Comprar"></h:button>
+    </p:panelGrid> 
+     
+     <p:panelGrid columns="1">
+        <p:graphicImage height="190px" width="200px" name="img/calabresa.jpg" />
+        <h:outputText style="font-size: 18px" value="Margherita" />
+        <h:outputText style="font-size: 12px" value="Mussarela,tomate e manjericao." />
+        <h:button value="Comprar"></h:button>
+    </p:panelGrid>  
+     
+     <p:panelGrid columns="1">
+        <p:graphicImage height="190px" width="200px" name="img/mussarela.jpg" />
+        <h:outputText style="font-size: 18px" value="Margherita" />
+        <h:outputText style="font-size: 12px" value="Mussarela,tomate e manjericao." />
+        <h:button value="Comprar"></h:button>
+    </p:panelGrid> 
+     
+     <p:panelGrid columns="1">
+        <p:graphicImage height="190px" width="200px" name="img/napolitana.jpg" />
+        <h:outputText style="font-size: 18px" value="Margherita" />
+        <h:outputText style="font-size: 12px" value="Mussarela,tomate e manjericao." />
+        <h:button value="Comprar"></h:button>
+    </p:panelGrid> 
+     
+     <p:panelGrid columns="1">
+        <p:graphicImage height="190px" width="200px" name="img/presunto.jpg" />
+        <h:outputText style="font-size: 18px" value="Margherita" />
+        <h:outputText style="font-size: 12px" value="Mussarela,tomate e manjericao." />
+        <h:button value="Comprar"></h:button>
+    </p:panelGrid> 
+     
+     <p:panelGrid columns="1">
+        <p:graphicImage height="190px" width="200px" name="img/margherita.jpg" />
+        <h:outputText style="font-size: 18px" value="Margherita" />
+        <h:outputText style="font-size: 12px" value="Mussarela,tomate e manjericao." />
+        <h:button value="Comprar"></h:button>
+    </p:panelGrid> 
+     
+     <p:panelGrid columns="1">
+        <p:graphicImage height="190px" width="200px" name="img/margherita.jpg" />
+        <h:outputText style="font-size: 18px" value="Margherita" />
+        <h:outputText style="font-size: 12px" value="Mussarela,tomate e manjericao." />
+        <h:button value="Comprar"></h:button>
+    </p:panelGrid> 
+     
+     <p:panelGrid columns="1">
+        <p:graphicImage height="190px" width="200px" name="img/margherita.jpg" />
+        <h:outputText style="font-size: 18px" value="Margherita" />
+        <h:outputText style="font-size: 12px" value="Mussarela,tomate e manjericao." />
+        <h:button value="Comprar"></h:button>
+    </p:panelGrid> 
+ </p:panelGrid>    
+     
+     </h:form>
+    </ui:define> 
+    
+    <ui:define name="rodape">
+        <h:form>
+            <div align="right">
+            <p:commandButton value="Voltar" action="Perfil.xthml"></p:commandButton>
+            </div>
+    </h:form>    
+    </ui:define>
+
+</ui:composition>
